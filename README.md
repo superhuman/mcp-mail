@@ -1,8 +1,9 @@
 # mcp-mail
 Superhuman Mail MCP Server
 
-Configuration instructions:
+Add to your MCP client configuration:
 
+```json
 {
   "mcpServers": {
     "Superhuman Mail": {
@@ -11,3 +12,4 @@ Configuration instructions:
     }
   }
 }
+```

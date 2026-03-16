@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Connect your AI assistant to Superhuman Mail via MCP",
   "bin": {
-    "superhuman-mcp-mail": "./bin/cli.js"
+    "superhuman-mcp-mail": "bin/cli.js"
   },
   "dependencies": {
     "mcp-remote": "latest"
