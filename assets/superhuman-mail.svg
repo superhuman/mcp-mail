@@ -1,0 +1,9 @@
+<svg width="320" height="160" viewBox="0 0 320 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="160" rx="24" fill="#F8EFF6"/>
+  <rect x="28" y="36" width="88" height="88" rx="20" fill="#CE9EC6"/>
+  <path d="M47 67C47 63.7 49.7 61 53 61H91C94.3 61 97 63.7 97 67V93C97 96.3 94.3 99 91 99H53C49.7 99 47 96.3 47 93V67Z" fill="white"/>
+  <path d="M52 68L70.8 82.2C71.5 82.7 72.5 82.7 73.2 82.2L92 68" stroke="#8E5785" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 91C72 91 61.6 84.9 61.6 76.7C61.6 73.4 64.1 70.9 67.1 70.9C69.1 70.9 70.8 71.9 72 73.6C73.2 71.9 74.9 70.9 76.9 70.9C79.9 70.9 82.4 73.4 82.4 76.7C82.4 84.9 72 91 72 91Z" fill="#CE9EC6"/>
+  <text x="136" y="76" fill="#2E2430" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Superhuman Mail</text>
+  <text x="136" y="106" fill="#6D5B70" font-family="Arial, Helvetica, sans-serif" font-size="16">Official MCP for email and calendar</text>
+</svg>
