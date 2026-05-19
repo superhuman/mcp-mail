@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "superhuman-mail": {
+      "type": "http",
+      "url": "https://mcp.mail.superhuman.com/mcp",
+      "note": "Official Superhuman Mail MCP server. Uses OAuth on first connection and exposes Superhuman Mail email and calendar tools for authenticated accounts."
+    }
+  }
+}
