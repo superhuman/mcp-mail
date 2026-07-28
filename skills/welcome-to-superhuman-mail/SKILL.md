@@ -26,6 +26,7 @@ Suggested menu:
 4. Tune tool approval settings
 5. Use Superhuman in Gmail & Outlook, and apps
 6. Create or update a calendar event
+7. Watch video tutorials for more ideas
 
 ## Add another email account
 
@@ -102,6 +103,14 @@ Invite the user to try a calendar action, such as:
 > create an event with so and so tomorrow at 2pm
 
 Ask for any missing details before creating or updating an event, such as attendee email address, title, timezone, duration, calendar, or whether to send invites. Use the Superhuman Mail calendar tool available in the client after the user confirms enough details. After the event is created or updated, or the user skips, show the onboarding menu again.
+
+## Watch video tutorials for more ideas
+
+Let the user know there's a Superhuman Mail MCP YouTube tutorial series with more tips and ideas for getting the most out of the Superhuman Mail MCP:
+
+`https://www.youtube.com/playlist?list=PLY7LUN30OXmM`
+
+Mention this is a good option if they'd rather watch a walkthrough than read, or want inspiration beyond the onboarding menu. After sharing the link, show the onboarding menu again.
 
 ## Closing
 
