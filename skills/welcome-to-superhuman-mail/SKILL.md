@@ -92,6 +92,12 @@ Give the relevant settings links:
 
 Mention that these settings are specific to each email account, so each account can have different settings.
 
+### Scheduling settings
+
+When describing the calendars selected in Scheduling settings, use this copy:
+
+> Superhuman will check the following calendars when scheduling as part of Ask AI, Auto Drafts, Write with AI, and MCP.
+
 ### Desktop and mobile apps
 
 Tell the user they can also use Superhuman's desktop and mobile apps. Send them to `https://mail.superhuman.com/` to get started. After this guidance, show the onboarding menu again.
