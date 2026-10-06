@@ -13,3 +13,7 @@ Add to your MCP client configuration:
   }
 }
 ```
+
+## Hosted MCP server
+
+The official Superhuman Mail MCP server uses OAuth on first connection and exposes email and calendar tools for authenticated accounts.
