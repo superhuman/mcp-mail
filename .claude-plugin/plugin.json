@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "superhuman-mail",
   "displayName": "Superhuman Mail",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Connect Superhuman Mail to build powerful workflows across Gmail, Outlook, and Google Calendar. Search your inbox and calendar, summarize what matters, draft AI replies in your voice, check read statuses, prepare for your day, send emails or schedule events, and manage multiple Gmail and Outlook accounts.",
   "author": {
     "name": "Superhuman",
