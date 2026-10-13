@@ -6,7 +6,8 @@
     "mcp-mail": "bin/cli.js"
   },
   "dependencies": {
-    "mcp-remote": "latest"
+    "mcp-remote": "latest",
+    "undici": "^7.28.0"
   },
   "engines": {
     "node": ">=18"
