@@ -25,11 +25,11 @@ If the user gives a company name without specific contacts, use `Superhuman_Mail
 
 Run these Superhuman Mail MCP calls in parallel:
 
-1. **Email threads** — Call `Superhuman_Mail.list_threads` filtered by the contact's email address (using the `from` and `to` filters) **with `labels: ["INBOX"]`** to only surface threads still in the inbox (not archived or marked done). Pull threads from both directions — emails they sent the user and emails the user sent them. Get up to 50 threads.
+1. **Email threads** — Call `Superhuman_Mail.list_threads` filtered by the contact's email address (one call with `from`, one with `to`) and no `labels` filter, so archived and sent threads count toward the history. Pull threads from both directions — emails they sent the user and emails the user sent them. Get up to 50 threads per call.
 
 2. **Calendar interactions** — Call `Superhuman_Mail.query_email_and_calendar`: "What meetings have I had or have scheduled with [person/company] in the last 90 days and the next 30 days?"
 
-3. **Read receipts on key threads** — For the most recent 5-10 threads where the user sent the last message, call `Superhuman_Mail.get_read_statuses` to see if the other party opened the emails and when.
+3. **Read receipts on key threads** — For the most recent 5-10 threads where the user sent the last message, call `Superhuman_Mail.get_read_status_feed` with that thread's `thread_id` to see if the other party opened the emails and when.
 
 4. **Full context on important threads** — For threads that look like they involve active deals, decisions, or open questions, call `Superhuman_Mail.get_thread` to read the full conversation.
 
@@ -126,7 +126,7 @@ Based on everything above, recommend 2-3 concrete actions:
 After presenting the summary, offer to:
 - **Draft a follow-up email** — Uses `Superhuman_Mail.create_or_update_draft` with context-rich instructions
 - **Pull up a specific thread** — Uses `Superhuman_Mail.get_thread` for deeper reading
-- **Check read receipts on a specific email** — Uses `Superhuman_Mail.get_read_statuses`
+- **Check read receipts on a specific email** — Uses `Superhuman_Mail.get_read_status_feed` with the `thread_id`
 - **Schedule a meeting** — Uses `Superhuman_Mail.get_availability` and `Superhuman_Mail.create_or_update_event`
 - **Search other platforms** — If the user didn't opt in to cross-platform context during Step 2b but wants to dig deeper, offer to search Slack, Linear, Coda, Granola, or any other connected MCP tools on demand
 

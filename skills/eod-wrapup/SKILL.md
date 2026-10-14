@@ -37,7 +37,7 @@ This is the core value of the skill. Analyze all the data to find:
 
 **Stale starred threads** — Starred items that have been sitting for more than a day or two without action. The user flagged these for a reason.
 
-**Threads awaiting response** — Emails the user sent where the other person hasn't replied and it's been a notable amount of time. Use `Superhuman_Mail.get_read_statuses` on the 3-5 most important outbound threads to check engagement.
+**Threads awaiting response** — Emails the user sent where the other person hasn't replied and it's been a notable amount of time. Call `Superhuman_Mail.get_read_status_feed` with the `thread_id` of the 3-5 most important outbound threads to check engagement.
 
 ### Step 3: Present the wrap-up
 
