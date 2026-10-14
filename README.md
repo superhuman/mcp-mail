@@ -10,8 +10,8 @@ Add to your MCP client configuration:
 {
   "mcpServers": {
     "Superhuman Mail": {
-      "command": "npx",
-      "args": ["-y", "@superhuman/mcp-mail"]
+      "type": "http",
+      "url": "https://mcp.mail.superhuman.com/mcp"
     }
   }
 }
@@ -32,6 +32,8 @@ Add to your MCP client configuration:
 - **Drafts and snippets:** `create_or_update_draft`, `list_drafts`, `get_draft`, `send_draft`, `undo_send`, `get_draft_send_status`, `discard_draft`, `list_snippets`, `get_snippet`, `create_or_update_snippet`, `discard_snippet`, `update_personalization`
 - **Calendar and reminders:** `get_availability`, `create_or_update_event`, `create_or_update_reminder`, `list_reminders`, `discard_reminder`
 - **Inbox:** `update_thread`, `trash_thread`, `mark_spam`, `unsubscribe`
+- **Shared threads and comments:** `preview_share_thread`, `share_thread`, `unshare_thread`, `get_shared_thread_link`, `list_shared_thread_participants`, `list_shared_thread_comments`, `preview_comment`, `create_shared_thread_comment`, `delete_shared_thread_comment`, `react_shared_thread_comment`, `unreact_shared_thread_comment`
+- **Teammates:** `invite_teammate`
 - **Accounts:** `list_accounts`, `add_account`, `remove_account`, `set_default_account`
 
 ## Hosted MCP server
