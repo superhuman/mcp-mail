@@ -12,6 +12,11 @@
   "repository": "https://github.com/superhuman/mcp-mail",
   "license": "MIT",
   "keywords": ["superhuman", "mail", "email", "calendar", "mcp", "productivity", "inbox"],
+  "icon": "./assets/superhuman-mail.svg",
+  "documentationUrl": "https://help.superhuman.com/hc/en-us/articles/46005696690317-Superhuman-Mail-MCP-Server",
+  "supportUrl": "https://help.superhuman.com/hc/en-us",
+  "privacyPolicyUrl": "https://www.grammarly.com/privacy-policy",
+  "termsOfServiceUrl": "https://superhuman.com/legal/terms",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json"
 }
